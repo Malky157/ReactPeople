@@ -5,7 +5,7 @@ class PersonRow extends React.Component {
 
     render() {
 
-        return (<tr className={this.props.currentPerson.age >= 65 ? 'table-danger' : ""}>
+        return (<tr className={this.props.currentPerson.age >= 65 ? 'table-danger' : undefined}>
             <th>{this.props.currentPerson.firstName}</th>
             <th>{this.props.currentPerson.lastName}</th>
             <th>{this.props.currentPerson.age}</th>

@@ -1,5 +1,4 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import PersonForm from './PersonForm';
 import PersonRow from './PersonRow';
 
